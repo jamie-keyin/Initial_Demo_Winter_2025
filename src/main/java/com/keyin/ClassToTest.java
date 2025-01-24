@@ -9,7 +9,7 @@ public class ClassToTest {
 
     public List<String> methodToTest(String word) {
         if (!listOfStrings.contains(word.toLowerCase())) {
-            listOfStrings.add(word);
+            listOfStrings.add(word.toLowerCase());
         }
 
         return listOfStrings;
